@@ -1,0 +1,271 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Caudex', serif;
+    background-color: #F3E8D8;
+    color: #000000;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(243, 232, 216, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #59A5D8;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('hero.png') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .hero-text {
+    margin-top: 120px;
+    max-width: 800px;
+    color: #ffffff;
+    background-color: rgba(148, 142, 132, 0.15); /* soft beige tint */
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px); /* for Safari */
+    padding: 20px 30px;
+    border-radius: 2px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #59A5D8;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3a7ba2;
+  }
+  
+  /* Latest Releases Section */
+  .latest {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    background-color: #6E8EA4;
+    color: #F3E8D8;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .latest .text {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
+  .latest h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .latest p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .latest .spotify {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #F3E8D8;
+    color: #000000;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  /* Shows Section */
+  .shows {
+    background-color: #6E8EA4;
+    color: #F3E8D8;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .shows h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .show-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+  
+  /* Follow Section */
+.follow {
+    background-color: #F3E8D8;
+    color: #000000;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .follow h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spotify-btn {
+    background-color: #1DB954;
+    color: white;
+  }
+  
+  .spotify-btn:hover {
+    background-color: #169c45;
+  }
+  
+  .insta-btn {
+    background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    color: white;
+  }
+  
+  .insta-btn:hover {
+    opacity: 0.85;
+  }
+
+  /* Contact Section */
+.contact {
+    background-color: #F3E8D8;
+    color: #000000;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-btn {
+    background-color: #59A5D8;
+    color: #fff;
+  }
+  
+  .contact-btn:hover {
+    background-color: #3a7ba2;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .hero {
+    background-position: left center;
+    background-position: 30% center;
+
+      background-size: cover;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1.1rem;
+    }
+  }
+  
