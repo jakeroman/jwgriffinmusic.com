@@ -27,7 +27,7 @@ a {
   align-items: center;
   gap: 20px;
   padding: 20px 50px;
-  background: rgba(243, 232, 216, 0.96);
+  background: rgba(243, 232, 216, 0);
   position: absolute;
   top: 0;
   left: 0;
