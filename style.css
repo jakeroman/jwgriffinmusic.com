@@ -322,6 +322,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  .nav-shop-btn {
+    display: none;
+  }
+}
 .calendar-wrap iframe {
   min-height: 500px;
 }
