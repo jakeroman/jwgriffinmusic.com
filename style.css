@@ -123,7 +123,7 @@ a {
 
 /* About Section */
 .about {
-  background-color: #EBDDCB;
+  background-color: #ffffff;
   color: #111111;
   padding: 60px 40px;
   text-align: center;
@@ -192,7 +192,7 @@ a {
 
 /* Shows Section */
 .shows {
-  background-color: #E7D8C3;
+  background-color: #F0F4F9;
   color: #111111;
   padding: 60px 40px;
   text-align: center;
@@ -304,7 +304,7 @@ a {
   max-width: 900px;
   min-height: 600px;
   border: 0;
-  background: #F3E8D8;
+  background: #F0F4F9;
 }
 
 /* Mobile */
